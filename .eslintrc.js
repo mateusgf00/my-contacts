@@ -22,10 +22,11 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'react/jsx-filename-extension': [1, { "extensions": [".js", ".jsx"] }],
-    "react/react-in-jsx-scope": "off",
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/react-in-jsx-scope': 'off',
     'linebreak-style': 'off',
-    "comma-dangle": "off",
-    quotes: ["error", "single"]
+    'comma-dangle': 'off',
+    quotes: ['error', 'single'],
+    'import/prefer-default-export': 'off'
   },
 };
